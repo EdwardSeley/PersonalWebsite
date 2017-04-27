@@ -2,28 +2,77 @@
     
 body {
     font-family: "Work Sans";
+    margin: 0px;
+    padding: 0px;
+    background-color: darkkhaki;
 }
 
-.navigation {
+ul {
     list-style-type: none;
+    padding: 0;
+    background-color: black;
+    overflow: auto;
 }
 
 #home {
     float: left;
-    text-align: left;
+}
+
+#home a {
+    font-size: 25px;
 }
 
 .navigation li {
     display: inline;
     padding: 14px 16px;
-    font-size: 17px;
     float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 h2 {
-    color: red;
-    clear: both;
     padding: 14px;
     display: block;
     text-align: left;
+}
+
+#terminal {
+    width: 700px;
+    height: 700px;
+    background-color: black;
+    border-radius: 11px;
+    margin: 0px auto;
+}
+
+#window-bar {
+    width: 700px;
+    height: 50px; 
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    display: table;
+}
+
+#terminal-title {
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.command {
+    font-family: monospace;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    color: red;
 }
