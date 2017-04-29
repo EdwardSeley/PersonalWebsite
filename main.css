@@ -8,26 +8,58 @@ body {
     background-color: floralwhite;
 }
 
-#name a {
+#name {
     display: inline;
-    font-size: 35px;
-    text-decoration: none;
-    line-height: 200px;
-    margin-top: -50px;
+    line-height: 100px;
     position: absolute;
     text-align: center;
     width: 100%;
     margin-bottom: inherit;
-    color: white;
+    padding-bottom: -10px;
     background-color: black;
-    clear: both;
+    z-index: -1;
 }
 
-#navigation {
-    clear: both;
+#name a {
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+#navigation-button {
+    
+    z-index: 11;
     font-size: 40px;
     float: right;
+    margin-right: 65px;
+    margin-top: 10px;
     padding: 15px;
     color: white;
+    clear: both;
 }
 
+#navigation-options {
+    margin: 0px;
+    padding: 5px;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    height: 175px;
+    width: 200px;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    background-color: black;
+    opacity: 0.4;
+}
+
+li {
+ margin: 10px;
+ text-align: center;
+}
+
+a {
+color: white;
+font-size: 25px;
+margin: 10px;
+}
