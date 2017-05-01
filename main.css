@@ -79,7 +79,7 @@ nav div:hover + #nav-options, #nav-options:hover, #nav-options li:hover{
     position: relative;
     top: 108px;
     height: 600px;
-    background-color: floralwhite;
+    background-color: cornflowerblue;
 }
 
 #black {
@@ -91,7 +91,7 @@ nav div:hover + #nav-options, #nav-options:hover, #nav-options li:hover{
 
 .text-box {
     position: absolute;
-    right: 130px;
+    right: 150px;
     top: 60px;
     font-size: 28px;
     width: 500px;
@@ -109,6 +109,11 @@ nav div:hover + #nav-options, #nav-options:hover, #nav-options li:hover{
     font-size: 30px;
 }
 
+#main-pic {
+    position: relative;
+    top: -900px;
+    left: -400px;
+}
 
 
 
