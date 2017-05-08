@@ -63,6 +63,7 @@ body {
 
 nav a {
     color: white;
+    text-decoration: none;
     font-size: 25px;
     user-select: none;
     cursor: pointer;
@@ -75,17 +76,17 @@ nav div:hover + #nav-options, #nav-options:hover, #nav-options li:hover{
     z-index: 100;
 }
 
-#floral {
+#mainContent {
     position: relative;
     top: 108px;
-    height: 600px;
-    background-color: cornflowerblue;
+    height: 600px; 
+    background-color: rgb(66, 168, 192);
 }
 
-#black {
+#blackFooter {
     position: relative;
     top: 108px;
-    height: 500px;
+    height: 1000px;
     background-color: #1b1b1b;
 }
 
@@ -111,10 +112,51 @@ nav div:hover + #nav-options, #nav-options:hover, #nav-options li:hover{
 
 #main-pic {
     position: relative;
-    top: -900px;
+    top: -901px;
     left: -400px;
 }
 
+#project1 {
+    position: relative;
+    height: 380px;
+    width: 550px;
+    left: 30px;
+}
+
+#project2 {
+    position: relative;
+    left: 30px;
+}
+
+#BrainApp p {
+    color: white !important;
+    top: 145px;
+    text-align: left;
+    font-family: "Work Sans";
+}
+
+#HealthProgram p {
+    color: white !important;
+    top: 595px;
+    text-align: left;
+    font-family: "Work Sans";
+    
+}
+
+h1, h2 {
+    color: white;
+    margin: 0;
+    margin-bottom: 15px;
+    position: relative;
+    left: 30px;
+    padding-top: 35px;
+}
+
+h1 {
+    top: 25px;
+    font-size: 40px;
+    left: 430px;
+}
 
 
 

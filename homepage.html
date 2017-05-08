@@ -2,6 +2,13 @@
 <html>
     <head>
         <title>Edward Seley</title>
+        <script type="text/javascript" src="jquery.js"></script>
+        <script>
+            $(document).ready(function() {
+            $("#term").slideUp(1000).slideDown(1000);   
+            });
+        </script>
+        
         <link rel="stylesheet" type="text/css" href="main.css">
     </head>
     <body>
@@ -9,26 +16,40 @@
         <nav>
             <div id = "nav-button">☰</div>
             <ul id = "nav-options">
-                <li><a>About</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a>Projects</a></li>
                 <li><a>Experience</a></li>
                 <li><a>Contact</a></li>
             </ul>
         </nav>
-        <div id="floral">
+        <div id="mainContent">
             <div class = text-box>
                 <div id = intro>Hello, my name is </div>
                 <div id = "term"><b>Ed·ward Sel·ey</b></div>
                 <div id = "pronunciation"><i>/ĕd′wərd sē(ə)lē/</i></div>
                 <div id = "grammer"><i>pronoun</i></div>
-                <div id = "definition">1. A talented and passionate software developer who has a knack for problem solving and loves learning new things.</div>
-                <div id = "example">"Looking for a problem to be solved or a program to be written? I know just the man to do it: Edward Seley."</div>
-                <div id = "synonyms"><i>synonyms:</i> savy software engineer, soon-to-be master of the universe, the chosen one</div>
+                <div id = "definition">1. A software developer who will be attending Case Western in the coming fall to study Computer Science, specializing in Cognitive Science and Artificial Intelligence.</div>
+                <div id = "example">"Who's that weirdo always programming and listening to the Weeknd? Oh right it's Edward Seley."</div>
+                <div id = "synonyms"><i>synonyms:</i> Eddie, savy software engineer (nobody calls me that but they should start) </div>
             </div>
+            <img id= "main-pic" src="HomepagePic.png">
         </div>
-        <div id = "black">
-        </div>
-        <div id="floral">
+        <div id = "blackFooter">
+            <h1>Projects I've Worked On</h1>
+            <div id ="BrainApp">
+                <h2>The Brain App</h2>
+                <img id="project1" src="BrainApp.png">
+                <p class="text-box">
+                    This application serves as an interactive study guide through which one can come to learn more about the brain. There are four different areas of study that I plan to include in this app and they are: history of neuroscience, philosophy of the mind, neurobiology, and computational neuroscience. I used C++ and SDL libraries to complete this project. <a href="https://github.com/EdwardSeley/BrainApp">Click here to learn more</a>
+            </div>
+                
+            <div id="HealthProgram">
+                <h2>Health Program</h2>
+                <img id="project2" src="HealthProgram.PNG">
+                <p class="text-box">
+                    This program helps the user measure calorie intake and food consumption. The Harris-Benedict algorithms for BMR and calorie levels are used, as well as a BMI formula from the CDC (Centers for Disease Control and Prevention) and the HAMWI formula for ideal body weight. Click here to learn more. <a href="https://github.com/EdwardSeley/Health-Program">Click here to learn more</a>
+                </p>
+            </div>
         </div>
     </body>
 </html>
