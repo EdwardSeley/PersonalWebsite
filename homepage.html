@@ -2,15 +2,6 @@
 <html>
     <head>
         <title>Edward Seley</title>
-        <script type="text/javascript" src="jquery.js"></script>
-        <script>
-            $(document).ready(function() {
-                $("#main-pic").hide("slide", { direction: "left" }, 1000);
-                $("#main-pic").show("slide", { direction: "right" }, 1000);
-            $("#term").slideUp(1000).slideDown(1000);   
-            });
-        </script>
-        
         <link rel="stylesheet" type="text/css" href="main.css">
     </head>
     <body>
@@ -18,10 +9,10 @@
         <nav>
             <div id = "nav-button">☰</div>
             <ul id = "nav-options">
-                <li><a href="about.html">About</a></li>
-                <li><a>Projects</a></li>
-                <li><a>Experience</a></li>
-                <li><a>Contact</a></li>
+                <li><a href="#project-section">Projects</a></li>
+                <li><a href="#experience-section">Experience</a></li>
+                <li><a href="resume.pdf">Resume</a></li>
+                <li><a href="#contact-section">Contact</a></li>
             </ul>
         </nav>
         <div id="mainContent">
@@ -40,19 +31,19 @@
             <h1>Projects I've Worked On</h1>
             <div id ="BrainApp">
                 <h2>The Brain App</h2>
-                <img id="project1" src="BrainApp.png">
+                <a href="https://github.com/EdwardSeley/BrainApp" target="_blank"><img id="project1" src="BrainApp.png"></a>
                 <p class="text-box">
                     This application serves as an interactive study guide through which one can come to learn more about the brain. There are four different areas of study that I have included in this app and they are: history of neuroscience, philosophy of the mind, neurobiology, and computational neuroscience. I used C++ and SDL libraries to complete this project.
             </div>          
             <div id="HealthProgram">
                 <h2>Health Program</h2>
-                <img id="project2" src="HealthProgram.PNG">
+                <a href="https://github.com/EdwardSeley/Health-Program" target="_blank"><img id="project2" src="HealthProgram.PNG"></a>
                 <p class="text-box">
                     This program helps users measure their calorie intake and food consumption. The Harris-Benedict algorithms for BMR and calorie levels are utilized, as well as a BMI formula from the CDC (Centers for Disease Control and Prevention) and the HAMWI formula for ideal body weight. I used Java and Netbeans to complete this project. 
             </div>
             <div id="AutoQuiz">
                 <h2>Auto Quiz</h2>
-                <img id="project3" src="AutomatedQuiz.PNG">
+                <a href="https://github.com/EdwardSeley/AutoQuiz" target="_blank"><img id="project3" src="AutomatedQuiz.PNG"></a>
                 <p class="text-box">
                     The AutoQuiz program uses Python, HTML, and CSS to generate and email a quiz based on random Latin vocabulary. I included a file with thousands of Latin words and definitions so that each quiz generation comes with new/unexpected words. There is also a terminal script that utilizes Crontab and Mutt to automatically send an email containing the quiz each day at a particular time.
                 </p>
@@ -117,12 +108,12 @@
                 </div>
             </div>
         </div>
-        <div id="contact">
+        <div id="contact-section">
             <h1>Let's Get in Touch</h1>
             <br>
-            <img class="icon" src="EmailIcon.png">
-            <img class="icon" src="GitHubIcon.png">
-            <img class="icon" src="LinkedInIcon.png">
+            <a href="mailto:edwardseley@gmail.com" target="_blank"><img class="icon" src="EmailIcon.png"></a>
+            <a href="https://github.com/EdwardSeley" target="_blank"><img class="icon" src="GitHubIcon.png"></a>
+            <a href="https://www.linkedin.com/in/edward-seley-45a734123/" target="_blank"><img class="icon" src="LinkedInIcon.png"></a>
         </div>
     </body>
 </html>

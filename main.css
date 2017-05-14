@@ -24,14 +24,12 @@ body {
     margin-bottom: inherit;
     padding-bottom: -10px;
     background-color: #1b1b1b;
-    z-index: -2;
 }
 
 #name a {
     font-size: 40px;
     text-decoration: none;
     color: white;
-    user-select: none;
 }
 
 #nav-button {
@@ -191,6 +189,10 @@ h1 {
     font-size: 40px;
 }
 
+h2 {
+    text-decoration: bold;
+}
+
 #experience-section {
     background-image: url(CaseWestern.jpg);
     height: 950px;
@@ -241,7 +243,7 @@ h1 {
     margin-left: 600px; 
 }
 
-#contact {
+#contact-section {
     height: 500px;
     background-color: rgb(66, 168, 192);
 }
