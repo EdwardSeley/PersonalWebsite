@@ -153,6 +153,7 @@ nav div:hover + #nav-options, #nav-options:hover, #nav-options li:hover{
 #HealthProgram p {
     color: white !important;
     top: 595px;
+	left: 700px;
     text-align: left;
     font-family: "Work Sans";
     
@@ -195,6 +196,8 @@ h2 {
 
 #experience-section {
     background-image: url(CaseWestern.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
     height: 950px;
     margin-top: 108px;
 }
@@ -253,6 +256,10 @@ h2 {
     padding: 15px;
     height: 300px;
     width: 300px;
+}
+
+#icon-row {
+	text-align: center;
 }
 
 
