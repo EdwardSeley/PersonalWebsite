@@ -14,32 +14,20 @@ body {
     padding: 0px;
 }
 
-#name {
-    display: inline;
-    top: 0px;
-    line-height: 100px;
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    margin-bottom: inherit;
-    padding-bottom: -10px;
+#nav-bar {
     background-color: #1b1b1b;
 }
 
-#name a {
+#name {
+    display: inline;
     font-size: 40px;
     text-decoration: none;
     color: white;
+    text-align: center;
 }
 
 #nav-button {
     font-size: 40px;
-    position: absolute;
-    right: 5px;
-    margin-right: 65px;
-    margin-top: 10px;
-    height: 69px;
-    padding: 15px;
     color: white;
     clear: both;
     user-select: none;
@@ -48,9 +36,6 @@ body {
 
 #nav-options {
     margin: 0px;
-    position: absolute;
-    top: 108px;
-    right: 0px;
     height: 200px;
     width: 200px;
     color: #1b1b1b;
@@ -83,26 +68,22 @@ nav div:hover + #nav-options, #nav-options:hover, #nav-options li:hover{
     padding-right: 0px;
 }
 
-#mainContent {
-    position: relative;
-    top: 108px;
-    height: 600px; 
+#mainContent { 
     background-color: rgb(66, 168, 192);
 }
 
+#main-pic {
+    width: 1210px; 
+    height:1614px;
+}
+
 #project-section {
-    position: relative;
-    top: 108px;
-    height: 1300px;
     background-color: #1b1b1b;
 }
 
 .text-box {
-    position: absolute;
-    right: 150px;
-    top: 60px;
     font-size: 28px;
-    width: 500px;
+    width: 80%;
     text-align: center;
     font-family: "Lora";
 }
@@ -117,52 +98,29 @@ nav div:hover + #nav-options, #nav-options:hover, #nav-options li:hover{
     font-size: 30px;
 }
 
-#main-pic {
-    position: relative;
-    top: -901px;
-    left: -400px;
-}
-
 #project1 {
-    position: relative;
     height: 380px;
     width: 550px;
-    left: 30px;
-}
-
-#project2 {
-    position: relative;
-    left: 30px;
 }
 
 #project3 {
-    position: relative;
     height: 260px;
     width: 350px;
-    left: 30px;
 }
 
 #BrainApp p {
     color: white !important;
-    top: 145px;
-    left: 600px;
     text-align: left;
     font-family: "Work Sans";
 }
 
 #HealthProgram p {
     color: white !important;
-    top: 595px;
-	left: 700px;
-    text-align: left;
-    font-family: "Work Sans";
-    
+    font-family: "Work Sans";   
 }
 
 #AutoQuiz p {
     color: white !important;
-    top: 995px;
-    left: 400px;
     width: 700px;
     text-align: left;
     font-family: "Work Sans";
@@ -177,7 +135,6 @@ h1, h2 {
     color: white;
     margin: 0;
     margin-bottom: 15px;
-    position: relative;
     left: 30px;
     padding-top: 35px;
 }
@@ -185,8 +142,6 @@ h1, h2 {
 h1 {
     text-align: center;
     margin: auto;
-    position: relative;
-    left: 0px;
     font-size: 40px;
 }
 
@@ -198,25 +153,19 @@ h2 {
     background-image: url(assets/CaseWestern.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-    height: 950px;
     margin-top: 108px;
 }
 
 #timeline {
-    position: relative;
-    top: 95px;
     margin: auto;
     width: 1000px;
 }
 
 .experience-descript {
     background-color: rgba(27, 27, 27, 0.9);
-    text-align: center;
-    position: relative;
     width: 500px;
     padding: 0px;
     margin: 0px;
-    margin-top: -20px;
 }
 
 .position {
