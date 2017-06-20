@@ -26,6 +26,24 @@ body {
     text-align: center;
 }
 
+.dropdown-menu {
+    z-index: 0;
+    display: none;
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    color: none;
+    text-align: inherit;
+    list-style: none;
+    height: 0px;
+    width: 0px;
+    background-color: rgba(0,0,0,1);
+    background-clip: inherit;
+    border: none;
+    border-radius: initial;
+}
+
 #nav-button {
     font-size: 40px;
     color: white;
@@ -48,6 +66,8 @@ body {
     padding: 15px 10px;
     text-align: center;
     background-color: #1b1b1b;
+    position: relative;
+    right: 30px;
 }
 
 nav a {
